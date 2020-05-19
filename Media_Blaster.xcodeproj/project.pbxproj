@@ -14,6 +14,7 @@
 		6C1281DD2455B33300517674 /* Media_Blaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C1281DB2455B33300517674 /* Media_Blaster.xcdatamodeld */; };
 		6C1281DF2455B33600517674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1281DE2455B33600517674 /* Assets.xcassets */; };
 		6C1281E22455B33600517674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1281E02455B33600517674 /* LaunchScreen.storyboard */; };
+		84E5C802FF65AB4B011E3C3D /* Pods_Media_Blaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0561569DC49D50FA6F6B28 /* Pods_Media_Blaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		6C1281DE2455B33600517674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C1281E12455B33600517674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1281E32455B33600517674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B0531EDDB7577E4549298C /* Pods-Media_Blaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media_Blaster.release.xcconfig"; path = "Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster.release.xcconfig"; sourceTree = "<group>"; };
+		AB92D821F17FDF6C8B86607D /* Pods-Media_Blaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Media_Blaster.debug.xcconfig"; path = "Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster.debug.xcconfig"; sourceTree = "<group>"; };
+		DB0561569DC49D50FA6F6B28 /* Pods_Media_Blaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Media_Blaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E5C802FF65AB4B011E3C3D /* Pods_Media_Blaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,11 +74,23 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		2CAAB9D4C9B46AD577697A91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB92D821F17FDF6C8B86607D /* Pods-Media_Blaster.debug.xcconfig */,
+				A7B0531EDDB7577E4549298C /* Pods-Media_Blaster.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6C1281C62455B33300517674 = {
 			isa = PBXGroup;
 			children = (
 				6C1281D12455B33300517674 /* Media_Blaster */,
 				6C1281D02455B33300517674 /* Products */,
+				2CAAB9D4C9B46AD577697A91 /* Pods */,
+				DCC21A14FAFF69A2E50B0E8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +119,14 @@
 			path = Media_Blaster;
 			sourceTree = "<group>";
 		};
+		DCC21A14FAFF69A2E50B0E8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0561569DC49D50FA6F6B28 /* Pods_Media_Blaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C1281E62455B33600517674 /* Build configuration list for PBXNativeTarget "Media_Blaster" */;
 			buildPhases = (
+				FBCB39BFA33AC9ED035486EA /* [CP] Check Pods Manifest.lock */,
 				6C1281CB2455B33300517674 /* Sources */,
 				6C1281CC2455B33300517674 /* Frameworks */,
 				6C1281CD2455B33300517674 /* Resources */,
+				64352597C7697C96ED52E27C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +194,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64352597C7697C96ED52E27C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBCB39BFA33AC9ED035486EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Media_Blaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C1281CB2455B33300517674 /* Sources */ = {
@@ -318,6 +387,7 @@
 		};
 		6C1281E72455B33600517674 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB92D821F17FDF6C8B86607D /* Pods-Media_Blaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +406,7 @@
 		};
 		6C1281E82455B33600517674 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B0531EDDB7577E4549298C /* Pods-Media_Blaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
