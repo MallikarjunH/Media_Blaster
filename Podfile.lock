@@ -1,24 +1,32 @@
 PODS:
+  - HexColors (4.0.0)
   - IQKeyboardManagerSwift (6.5.5)
+  - PPTopMostController (0.0.1)
+  - RMessage (2.3.4):
+    - HexColors (~> 4.0)
+    - PPTopMostController
   - VersaPlayer (3.0.2)
-  - ViewAnimator (2.7.0)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
+  - RMessage
   - VersaPlayer
-  - ViewAnimator
 
 SPEC REPOS:
   trunk:
+    - HexColors
     - IQKeyboardManagerSwift
+    - PPTopMostController
+    - RMessage
     - VersaPlayer
-    - ViewAnimator
 
 SPEC CHECKSUMS:
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
+  RMessage: c53d90b788d64387f68bce3725b309e377b6bf15
   VersaPlayer: 0e9a0ea7da786729ffb377dbd17b34641a8265e4
-  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
 
-PODFILE CHECKSUM: 82d6d9e6226042124e622d1aa366537cc63105ef
+PODFILE CHECKSUM: d658a148086ee0b184e8b5ea8c660224faa987a0
 
 COCOAPODS: 1.9.1

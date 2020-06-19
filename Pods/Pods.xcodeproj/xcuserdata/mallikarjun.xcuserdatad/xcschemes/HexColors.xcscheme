@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A5716032F8CEDA64DF699D1224EB147"
-               BuildableName = "Pods-Media_Blaster.framework"
-               BlueprintName = "Pods-Media_Blaster"
+               BlueprintIdentifier = "A7BE256EA2521B526245D404FF5E841F"
+               BuildableName = "HexColors.framework"
+               BlueprintName = "HexColors"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -6,8 +6,9 @@ target 'Media_Blaster' do
   use_frameworks!
 
   # Pods for Media_Blaster
-  pod "ViewAnimator"
+ 
   pod 'VersaPlayer'
   pod 'IQKeyboardManagerSwift'
+  pod "RMessage"
 
 end

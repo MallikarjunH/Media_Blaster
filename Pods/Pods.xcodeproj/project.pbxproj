@@ -7,169 +7,265 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0564E54A6F03094F6F39F7D2325CE0D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
-		0673EB55F380658627A9E91E66A97EAC /* VersaTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EE8E8FEA9368238A70D511A6978191 /* VersaTimeLabel.swift */; };
-		102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E0D8CA537F228D169B930D517B35DE /* IQKeyboardManagerConstantsInternal.swift */; };
-		259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA43E3FC4F7FB0D35CE1CEC4E4416DB2 /* IQNSArray+Sort.swift */; };
-		2964A4832ED09F9CB441D25FB2F7B76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005EE674FC9605B3D73EBBE3ED9FC402 /* ViewAnimator-dummy.m */; };
-		2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E9D3B3D4B96BAAC8EBD5B62993BE6 /* UICollectionView + ViewAnimator.swift */; };
-		37AB7673B2F8A11E1F0A2A54B909FE14 /* VersaPlayerControlsBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93605D3E7432835DBF1AB4D7768BE17 /* VersaPlayerControlsBehaviour.swift */; };
-		3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1CA4E6E3C6D3E2BB292363EF5EC50 /* UITableView + ViewAnimator.swift */; };
-		3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785DBD40970111FECAEA6969BBD53F0A /* IQKeyboardManager.swift */; };
-		44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847FDDC3AA3ACA64F1B7CF2E8B7CA99 /* Direction.swift */; };
-		44BF7F038424284C4CE61B4DEA445520 /* VersaPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D2649399FAE763D9FE02A2E305719 /* VersaPlayerItem.swift */; };
-		46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE5D8B324B0B89906D54806B26B5B /* ViewAnimator.swift */; };
-		4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2729EE0AC6CA9F2A435502F774BDC /* IQKeyboardReturnKeyHandler.swift */; };
-		4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8806910B79F07448A01F5AD8BF54E25B /* IQUITextFieldView+Additions.swift */; };
-		4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CAB722B507BAC27A9F110CF528C482 /* IQInvocation.swift */; };
-		5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E421A0D38B22E82F335B1C5899DD /* IQPreviousNextView.swift */; };
-		58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EF93A36B139A8588519ABF57178E0 /* Animation.swift */; };
-		5DE87FD811E42DA365121DDF74554236 /* VersaPlayerControlsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778A4C41EADAAD5EEF64E3B78313861 /* VersaPlayerControlsCoordinator.swift */; };
-		61287756EFBA2996D3260030B1BAF688 /* VersaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089ACD83642629C866028361D8BC143 /* VersaPlayerView.swift */; };
-		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EC8B0640210A061290FBF16AD81D14 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		643129E5EE0A36A11A0E3F910E7380B9 /* VersaPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA7CF34741EE3CAFA045244321E2E3 /* VersaPlayerExtension.swift */; };
-		65D0910756C37AAFA5150EAAD0AB708E /* Pods-Media_Blaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C48AAD94CF7FB745AF39315C9EE4D7 /* Pods-Media_Blaster-dummy.m */; };
-		6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		6D5E68B1D3F98AC02B29048E9C2F0A4B /* VersaPlayerGestureRecieverViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E35F439852AC03064D5123CE59234 /* VersaPlayerGestureRecieverViewDelegate.swift */; };
-		74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5783A690D0CC499AEE99BEA8F69E55 /* IQUIViewController+Additions.swift */; };
-		7772293C6E437E5FE57F4BB6C3E8E94B /* VersaSeekbarSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4D6BE28B7C8F0D20F0F6429B9BB5E /* VersaSeekbarSlider.swift */; };
-		7A68231138CC6232F0E09F4EC224E441 /* VersaPlayerPlaybackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25EF40390A00826EA6C804702CF412 /* VersaPlayerPlaybackError.swift */; };
-		7AEA1FF7F4FEA1642E92E4DF99505FAE /* VersaPlayerPlaybackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106CEF178A8A655B287CF6DF00934E94 /* VersaPlayerPlaybackDelegate.swift */; };
-		7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F3C7214FB7F8DC98C430F793777F6 /* IQTextView.swift */; };
-		86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01094D409C57FF4A8A4A7B3377E1B0B7 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89670A1F853F3C8789CF94583A5C705A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		89D39450A27C0FE7899B8CEC12CCB3C5 /* VersaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8472736E57BB6EA407D82F64999D100 /* VersaPlayer.swift */; };
-		8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B30066F99A7EC0890751670FC60C90 /* IQUIView+Hierarchy.swift */; };
-		8D0E2122D9A9226EB01FBDE7C8BF513D /* VersaPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2BC95B398A6585E9BFF476EE342B24 /* VersaPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F92DE493E66A26C230C75F95BEB6C77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
-		904185BE0457AAC8CCE864D37560D94E /* VersaPlayerMediaTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87240310F4F82F686D0F9B8AC0C43B2 /* VersaPlayerMediaTrack.swift */; };
-		963B24C5EE6EFE98575855B8447B1B98 /* VersaPlayerCaptionStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED9F0A6B8FE06FA5B124878972B0CAE /* VersaPlayerCaptionStyling.swift */; };
-		980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD91CC6917EE30D23C621A787D12AE /* IQToolbar.swift */; };
-		AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A3FB91E2D2EB3D3E09F235DCAD8B3 /* IQUIView+IQKeyboardToolbar.swift */; };
-		B7373E6AD247D12FAEBFE7FF17903998 /* VersaPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E76271F631D92A2F1336F262755C3F /* VersaPlayer-dummy.m */; };
-		B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6145C792BAA4C11E1C7B5C3760098BC7 /* IQKeyboardManagerSwift-dummy.m */; };
-		BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EBE79C0A9E83C02D0116459E9ABD71 /* ViewAnimatorConfig.swift */; };
-		BFB9BD7FDD69F158430DA65896A1EAD8 /* Pods-Media_Blaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D8DF59F8F2AC7DB8875A379E0C661D /* Pods-Media_Blaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70187616C5F294CCEE0160B727B21B9A /* IQKeyboardManagerConstants.swift */; };
-		C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29B14855C0B697E0C6A92ADCECD44C /* IQUIScrollView+Additions.swift */; };
-		C11451B3D376298E7566539C19666E07 /* VersaPlayerGestureRecieverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730358ED1548B207C292A6AD08A84334 /* VersaPlayerGestureRecieverView.swift */; };
-		C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D183D94CBF11089F3E79DA974E339EC /* IQTitleBarButtonItem.swift */; };
-		DB82B3426A8520371E57B957E113474E /* VersaPlayerDecryptionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA26B8D3971F476171FA69DB3EFCEC /* VersaPlayerDecryptionDelegate.swift */; };
-		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B11A4B31ADC9DD353B6ECCF70356D4 /* IQBarButtonItem.swift */; };
-		E1C734D6207B3AE97DA623C1B2B1FDEE /* VersaStatefulButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F8E3684E9B7BAC87144364EA19B7D9 /* VersaStatefulButton.swift */; };
-		E2F241AE194191F06998ECFD8517ACB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
-		E59D916E82BD55AFD91A7AB704A3EE45 /* VersaPlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07318E4918F42FD008E4098F9E09E4 /* VersaPlayerControls.swift */; };
-		FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510BD7D795455A98DF0C395133B313F6 /* AnimationType.swift */; };
-		FD32539F3EEA889773989D74554CDD54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		FF520F6A7D92410E58C90555D1D20C13 /* VersaPlayerRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CEF97A601649FB8106636889666933 /* VersaPlayerRenderingView.swift */; };
+		0119FEAEA1A778A9EA8C387E9C2E0F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */; };
+		053305D9A2B2D6FBE6BF23572EED51CA /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBBC864F45B19C6DE48CE59209FFED /* HexColors-dummy.m */; };
+		0564E54A6F03094F6F39F7D2325CE0D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF59B54DC545F0F202EF8F4FB2FF3A04 /* CoreGraphics.framework */; };
+		0673EB55F380658627A9E91E66A97EAC /* VersaTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F556112172920575319FFF743D51F /* VersaTimeLabel.swift */; };
+		0D566CCF3E4EEAA84020EDBA314C9F1E /* NotificationButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 20756E1C10315B4AD1D9371FAD201A7B /* NotificationButtonBackground.png */; };
+		0D9428C8C4104345B01C85FF95B3B1EC /* UITabBarController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF784FAF4970D3BF312FEE5D0862DBF /* UITabBarController+PPTopMostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9C6CA7FC919592A07CE2807BF3B8C9 /* NotificationBackgroundErrorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14B36A421D52F5936BBC78755CB9A613 /* NotificationBackgroundErrorIcon@2x.png */; };
+		0F732D96100549D2D5A21ABF0155B0AA /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E611B7DF9DE6D1E65169D30CF65499 /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102F4487BC4ADC3C2B56A0470E0A9468 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF673C06D3E8D6E6B1B4710BC334F7 /* IQKeyboardManagerConstantsInternal.swift */; };
+		1AC3D91AD9CE54DD7048F077309F25C0 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 97298FE6606C6D28072C5267994D91A3 /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD536363D233D49002D1E9CB5973922 /* RMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131714C6DBFAE305C40149EED07980F8 /* RMessageView.xib */; };
+		2242DA209C798E66139B830001668745 /* RMessageDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = E5235857F57887A83819E7C3D63FD779 /* RMessageDefaultDesign.json */; };
+		259D6FC80BCFE785471F743B1F533970 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDF82CBB1E0F4A2A1EB2774CB5EB2F /* IQNSArray+Sort.swift */; };
+		2964A4832ED09F9CB441D25FB2F7B76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */; };
+		2A00C84B4A2DEAA94D185D60A900971B /* UINavigationController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1550DC690129330E02C2183EF58E91FC /* UINavigationController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2E891D5888494EE43843C79FDDC02FCB /* RMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E63F82FBDAC1C763FF4AA575CA2394 /* RMessage-dummy.m */; };
+		37AB7673B2F8A11E1F0A2A54B909FE14 /* VersaPlayerControlsBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297B7A0FD6A731A9E40BF2AA0479DD9 /* VersaPlayerControlsBehaviour.swift */; };
+		3AAB7A5FC7F9FB0B67955FED0A89700D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */; };
+		3F091C427A3E96117C902E8EA143729E /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E136D63104184E47A5C022241001E3 /* IQKeyboardManager.swift */; };
+		405A7A1FEEA2FA29569FA497A9D9D5FD /* PPTopMostController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88BAAB4076BB5D108350E4844686B73 /* PPTopMostController.framework */; };
+		408FC3D3914D69E7F838641F26CD0DD0 /* UINavigationController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = F54EC9058DAE25A94F033AA117A93F4E /* UINavigationController+PPTopMostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42138ABAFCBCBC0E5997D3FF18734F08 /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4611E0A239BEF2D1746A05D6A76C1B /* UIViewController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		44BF7F038424284C4CE61B4DEA445520 /* VersaPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A437CB061EA089515E917F4CF7EC653 /* VersaPlayerItem.swift */; };
+		4737103B10A1C40C5301D0512B9310E4 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC063A58211F5EBFB00ADA97B32823 /* IQKeyboardReturnKeyHandler.swift */; };
+		4C069FA7FAA45154DA92CF5DF3BCDCA9 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30944152EC18CA79E7AA33A97E9EB633 /* IQUITextFieldView+Additions.swift */; };
+		4F0CF2AD58CF0D08BC090E7AF0DD63D7 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFAC0BF142A6E880B99473F8D198E92 /* IQInvocation.swift */; };
+		501803705D226A4794309BAEC7AF1F98 /* PPTopMostController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1A690CE941230D46376B85667D429 /* PPTopMostController-dummy.m */; };
+		5044FEAEF09468B6964F9F37A1F1F45C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846741178B382AAE49B29E554EE22575 /* IQPreviousNextView.swift */; };
+		5289B857EE2CD313755D2988CF787E27 /* UIViewController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD9561F0F61668827F5EF64AE0AAB46 /* UIViewController+PPTopMostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE87FD811E42DA365121DDF74554236 /* VersaPlayerControlsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F558545C80D7D5C730DA10B9DE1E9A2 /* VersaPlayerControlsCoordinator.swift */; };
+		61287756EFBA2996D3260030B1BAF688 /* VersaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F64D7C57BCFE86D49A56A6CDD054E /* VersaPlayerView.swift */; };
+		617BD717DD89C62C9647694EF5E37C3E /* RMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34247AED21B92864460E4DD01C210F8C /* RMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A85277D0462C43B80A05E8822794BB /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB2E0B78B0DF2217AE67360B6B88495 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		643129E5EE0A36A11A0E3F910E7380B9 /* VersaPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940F47D3A781CA8253DCB099BC4B1CA /* VersaPlayerExtension.swift */; };
+		6AC53CAC91CE6D44E2C3E6816833CC11 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0074724866D04DD67A3BC215EDC418F2 /* HexColors.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C7A187FE8167944C65794891E714E3D /* RMessage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC7149820F48A7C09F6321DE8B89A2CE /* RMessage.bundle */; };
+		6D5E68B1D3F98AC02B29048E9C2F0A4B /* VersaPlayerGestureRecieverViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D3DCE2FB81D3E928776D367A1D04A /* VersaPlayerGestureRecieverViewDelegate.swift */; };
+		74341DA37F4B926FDF4CB2599CAC547A /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008D4135C1A4703E30346C5A4C734CB /* IQUIViewController+Additions.swift */; };
+		7772293C6E437E5FE57F4BB6C3E8E94B /* VersaSeekbarSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21121E650F8C9DF8B433984C7C7AD0A /* VersaSeekbarSlider.swift */; };
+		7A68231138CC6232F0E09F4EC224E441 /* VersaPlayerPlaybackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DBA9FCBCD28C48CC8FC366F7E3EDD1 /* VersaPlayerPlaybackError.swift */; };
+		7AEA1FF7F4FEA1642E92E4DF99505FAE /* VersaPlayerPlaybackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62AD52CCFCC4E4BF3EFD1A748206502 /* VersaPlayerPlaybackDelegate.swift */; };
+		7F7ABE9B6E4224D215B15FC081D721E7 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4688362A2CD0389DE177ECE80F45BA3D /* HexColors.framework */; };
+		7FB3576FD619DD256294BAD7E5F83CBE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE0BF5BA80DDCE69E8D85B7C4B5F85 /* IQTextView.swift */; };
+		7FD1BCD46C9E3D4EF5CB2F5B8B92B817 /* NotificationButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8ABA15CBCF3EB194AB9F86F5AF54D4 /* NotificationButtonBackground@2x.png */; };
+		87059649690E595A9FEA2CB6E3B4F859 /* NotificationBackgroundWarningIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C185E6CF3921DC369286D0EFE8861C /* NotificationBackgroundWarningIcon.png */; };
+		87F780F2AF510FB0D5BADF32DAD86837 /* NotificationBackgroundSuccessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A2A74D1C42F2F4A4F9E1D23B06A376 /* NotificationBackgroundSuccessIcon.png */; };
+		89670A1F853F3C8789CF94583A5C705A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */; };
+		89D39450A27C0FE7899B8CEC12CCB3C5 /* VersaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5523B97CC710332CC75F7F1A58078 /* VersaPlayer.swift */; };
+		8A9693B84ECCEAFC33F96EAA0FCCE365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */; };
+		8B439A47AA5FDEF67AD63BDDB808AC5A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A7ED565998D6C5D66FD907DE34A29 /* IQUIView+Hierarchy.swift */; };
+		8D0E2122D9A9226EB01FBDE7C8BF513D /* VersaPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C111DBC8A20B30FF86CFDEFAFEEB71F /* VersaPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE22AC68EF2E335F3BB7FC10C1B532D /* PPTopMostControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D20C0EC5D1FFFE1E284C5F10BB68660 /* PPTopMostControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EECE6EA829AE06D3F48C1C947CF433B /* RMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 310FC3ED7A66F764995332CFC7BC607B /* RMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F92DE493E66A26C230C75F95BEB6C77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107A9C04AE5256EC91EF76553B384213 /* QuartzCore.framework */; };
+		904185BE0457AAC8CCE864D37560D94E /* VersaPlayerMediaTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A41E2D6B087DE2C18C48D6E3510404 /* VersaPlayerMediaTrack.swift */; };
+		963B24C5EE6EFE98575855B8447B1B98 /* VersaPlayerCaptionStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC3ACEA1041AC1D8FEF695E1D83ABF /* VersaPlayerCaptionStyling.swift */; };
+		980E5594F8DBCE362764AEDC2F086E36 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2946024791DAC85EF550FA9291DB51 /* IQToolbar.swift */; };
+		AE3B246482DCD60BA846EA3CE983A1FB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5798B8D251DD760073BE4392B0B0D /* IQUIView+IQKeyboardToolbar.swift */; };
+		B0732B676B5EB6F3B75C60B493A954F3 /* RMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB6B7822C72E662D234A8ADCC69BF2D /* RMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C2AF424CD05CA6D028E4E17E0D015D /* NotificationBackgroundSuccessIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EF5CEFD0A98A124D0E2354122328B0 /* NotificationBackgroundSuccessIcon@2x.png */; };
+		B4B1BB6979666635A2D398BFFE67BC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */; };
+		B7373E6AD247D12FAEBFE7FF17903998 /* VersaPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB78048C8CC8C710308314E81E972B0 /* VersaPlayer-dummy.m */; };
+		B98378C55379E1B92897F11A22E38443 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7648A63E8ADB9401183CB4CC3004CB11 /* IQKeyboardManagerSwift-dummy.m */; };
+		BEE513DD24278B4A42E5B16858D276E8 /* UITabBarController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34D5C10BEC2EFFDA83E57936FB1627 /* UITabBarController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF58040738E24F96E53E430E5E3B23DE /* RMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DF3783430EDE74E1068DC4864F802F /* RMessage.m */; };
+		C04C5F1F1D6B337F87E157B55A747E41 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3210265D2FFB6D99C62D768654B2C /* IQKeyboardManagerConstants.swift */; };
+		C0EB3776478AB80676E488BC9C9CDA3C /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93578191FEB18523437A5A3655D71B3 /* IQUIScrollView+Additions.swift */; };
+		C11451B3D376298E7566539C19666E07 /* VersaPlayerGestureRecieverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78368908B8C73D9EC10D5E717C018CD /* VersaPlayerGestureRecieverView.swift */; };
+		C35DCE97EB77150C41E735DB57BD6616 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181C0E0F9C0B8CB87EAC8B6AF390501 /* IQTitleBarButtonItem.swift */; };
+		C5E77A6D00E96803232DC956CCE6B06D /* Pods-Media_Blaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C48AAD94CF7FB745AF39315C9EE4D7 /* Pods-Media_Blaster-dummy.m */; };
+		C9EB96F901CDB24E1F14BF5CF03E0B59 /* RMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4CC93D09DD0153E71B7B6BDC047503 /* RMessageView.m */; };
+		CCFA5333643AA118570323CCCD8CD453 /* PPTopMostController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F767597C1EC953ECF5631FB31C23A08E /* PPTopMostController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB82B3426A8520371E57B957E113474E /* VersaPlayerDecryptionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB36BCC59F827EA2CA3C5E2B86F354 /* VersaPlayerDecryptionDelegate.swift */; };
+		DDE417BA9D13D2BB98316DF0512A1944 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A51F57CE60E48DFA789E3BFAA5727 /* IQBarButtonItem.swift */; };
+		E1C734D6207B3AE97DA623C1B2B1FDEE /* VersaStatefulButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9071F1B69A4A7B560AB12835CD9A5F25 /* VersaStatefulButton.swift */; };
+		E2F241AE194191F06998ECFD8517ACB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578A3CD0E7B95F7DCCD20FFEA6CAE398 /* UIKit.framework */; };
+		E3690C6D0025CE35783B952876C64DEA /* Pods-Media_Blaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D8DF59F8F2AC7DB8875A379E0C661D /* Pods-Media_Blaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E59D916E82BD55AFD91A7AB704A3EE45 /* VersaPlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C327357CA71FB5F2B0103C9EE243BECE /* VersaPlayerControls.swift */; };
+		FA05E0C6A507226CB45304123707A8D9 /* NotificationBackgroundErrorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE39DC0963AEE96D9D7AFE35B6D282CA /* NotificationBackgroundErrorIcon.png */; };
+		FA916001F9F1DACFD6902A706CEC9280 /* NotificationBackgroundWarningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 674A89791D1ADCA51E83D86102F5B94E /* NotificationBackgroundWarningIcon@2x.png */; };
+		FF520F6A7D92410E58C90555D1D20C13 /* VersaPlayerRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363CAE3F7BD13FA2CA0EE412D3637D06 /* VersaPlayerRenderingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		211B31DFFA08E10CE49DB671BD861F25 /* PBXContainerItemProxy */ = {
+		006BD43444CBD9C4E88616FCCEB05E75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
-			remoteInfo = IQKeyboardManagerSwift;
+			remoteGlobalIDString = 55D38D35ABCC6A6C56D9E2649165ED52;
+			remoteInfo = PPTopMostController;
 		};
-		4B4C1A0C051DC4B820793EDE0D5601C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
-			remoteInfo = ViewAnimator;
-		};
-		6C4C4BBFFB37742B530284889CFD9FBC /* PBXContainerItemProxy */ = {
+		0C13128BB98099CDD216B23C76A80FDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9C10FCC9230D7F2B427D6CDB50584B25;
 			remoteInfo = VersaPlayer;
 		};
+		0FFB643EE8BF532A7E208DC4112C5A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BE256EA2521B526245D404FF5E841F;
+			remoteInfo = HexColors;
+		};
+		33286BE1579B28635AF6CD78E5A43FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D38D35ABCC6A6C56D9E2649165ED52;
+			remoteInfo = PPTopMostController;
+		};
+		35C8040BBBE1F5B95811F202C1F53B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BE256EA2521B526245D404FF5E841F;
+			remoteInfo = HexColors;
+		};
+		530F7E9F2C1E0431C3EFBC3932B4DBE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C011176D5EA51C19A2753796A30DD938;
+			remoteInfo = "RMessage-RMessage";
+		};
+		6345AABDA580D05B907B733E85420AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		AE5BAF49A66F79AD5A3D8E19C57DB39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE7A34880B9382E4499E5611FECB220;
+			remoteInfo = RMessage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005EE674FC9605B3D73EBBE3ED9FC402 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
-		01094D409C57FF4A8A4A7B3377E1B0B7 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
-		02689008742E122BB669C0FC363B429D /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
-		04B11A4B31ADC9DD353B6ECCF70356D4 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		0074724866D04DD67A3BC215EDC418F2 /* HexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = Classes/HexColors.m; sourceTree = "<group>"; };
+		069A7ED565998D6C5D66FD907DE34A29 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		06C48AAD94CF7FB745AF39315C9EE4D7 /* Pods-Media_Blaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Media_Blaster-dummy.m"; sourceTree = "<group>"; };
+		07DBA9FCBCD28C48CC8FC366F7E3EDD1 /* VersaPlayerPlaybackError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerPlaybackError.swift; path = VersaPlayer/Classes/Source/Core/Enums/VersaPlayerPlaybackError.swift; sourceTree = "<group>"; };
+		0B4360B84722578A139A9B2A1DB081A2 /* VersaPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VersaPlayer-Info.plist"; sourceTree = "<group>"; };
 		0B8ADA34C8DD28818EC5BA3760FF7416 /* Pods-Media_Blaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Media_Blaster-acknowledgements.plist"; sourceTree = "<group>"; };
-		106CEF178A8A655B287CF6DF00934E94 /* VersaPlayerPlaybackDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerPlaybackDelegate.swift; path = VersaPlayer/Classes/Source/Core/Protocols/VersaPlayerPlaybackDelegate.swift; sourceTree = "<group>"; };
-		19C83E2A2A94872F6B7135F5E665FC1A /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
-		1AAA7CF34741EE3CAFA045244321E2E3 /* VersaPlayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerExtension.swift; path = VersaPlayer/Classes/Source/Core/Protocols/VersaPlayerExtension.swift; sourceTree = "<group>"; };
-		1C7E9D3B3D4B96BAAC8EBD5B62993BE6 /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
-		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		21F8E3684E9B7BAC87144364EA19B7D9 /* VersaStatefulButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaStatefulButton.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Controls/VersaStatefulButton.swift; sourceTree = "<group>"; };
-		22A34B5D4E5C97CE8B95BBC7C05BBC70 /* ViewAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		0CD9561F0F61668827F5EF64AE0AAB46 /* UIViewController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PPTopMostController.h"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.h"; sourceTree = "<group>"; };
+		0DB6B7822C72E662D234A8ADCC69BF2D /* RMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessage.h; path = RMessage/RMessage.h; sourceTree = "<group>"; };
+		0F8AAE0035B543FF91552D64D0274327 /* PPTopMostController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PPTopMostController.modulemap; sourceTree = "<group>"; };
+		0FCE0BF5BA80DDCE69E8D85B7C4B5F85 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		107A9C04AE5256EC91EF76553B384213 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		131714C6DBFAE305C40149EED07980F8 /* RMessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RMessageView.xib; path = RMessage/Xibs/RMessageView.xib; sourceTree = "<group>"; };
+		145A51F57CE60E48DFA789E3BFAA5727 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		14B36A421D52F5936BBC78755CB9A613 /* NotificationBackgroundErrorIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundErrorIcon@2x.png"; path = "RMessage/Assets/Images/NotificationBackgroundErrorIcon@2x.png"; sourceTree = "<group>"; };
+		1550DC690129330E02C2183EF58E91FC /* UINavigationController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PPTopMostController.m"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.m"; sourceTree = "<group>"; };
+		16C1F18E5594E4161FF3F8CFBFE9AF39 /* PPTopMostController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTopMostController.debug.xcconfig; sourceTree = "<group>"; };
+		1940F47D3A781CA8253DCB099BC4B1CA /* VersaPlayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerExtension.swift; path = VersaPlayer/Classes/Source/Core/Protocols/VersaPlayerExtension.swift; sourceTree = "<group>"; };
+		1ACBBC864F45B19C6DE48CE59209FFED /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		20756E1C10315B4AD1D9371FAD201A7B /* NotificationButtonBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationButtonBackground.png; path = RMessage/Assets/Images/NotificationButtonBackground.png; sourceTree = "<group>"; };
 		26B9F68438FACB111E6B18810B7AD66E /* Pods-Media_Blaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Media_Blaster.release.xcconfig"; sourceTree = "<group>"; };
-		2778A4C41EADAAD5EEF64E3B78313861 /* VersaPlayerControlsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerControlsCoordinator.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/VersaPlayerControlsCoordinator.swift; sourceTree = "<group>"; };
-		27CEF97A601649FB8106636889666933 /* VersaPlayerRenderingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerRenderingView.swift; path = VersaPlayer/Classes/Source/Core/Rendering/VersaPlayerRenderingView.swift; sourceTree = "<group>"; };
-		28CDE5D8B324B0B89906D54806B26B5B /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
-		28EE8E8FEA9368238A70D511A6978191 /* VersaTimeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaTimeLabel.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Controls/VersaTimeLabel.swift; sourceTree = "<group>"; };
+		282B13D249C3787DD1E1AA020C675058 /* HexColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.release.xcconfig; sourceTree = "<group>"; };
 		2AAB42A72D9BAE7525C709068CEF63CD /* Pods-Media_Blaster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Media_Blaster-Info.plist"; sourceTree = "<group>"; };
-		31DA26B8D3971F476171FA69DB3EFCEC /* VersaPlayerDecryptionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerDecryptionDelegate.swift; path = VersaPlayer/Classes/Source/Core/Protocols/VersaPlayerDecryptionDelegate.swift; sourceTree = "<group>"; };
-		3B25EF40390A00826EA6C804702CF412 /* VersaPlayerPlaybackError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerPlaybackError.swift; path = VersaPlayer/Classes/Source/Core/Enums/VersaPlayerPlaybackError.swift; sourceTree = "<group>"; };
-		45E76271F631D92A2F1336F262755C3F /* VersaPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VersaPlayer-dummy.m"; sourceTree = "<group>"; };
-		49CAB722B507BAC27A9F110CF528C482 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
-		4BBD91CC6917EE30D23C621A787D12AE /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
-		4D183D94CBF11089F3E79DA974E339EC /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
-		510BD7D795455A98DF0C395133B313F6 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
+		2BAA2A6C839EE9294D5F98B23668E27D /* HexColors-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HexColors-Info.plist"; sourceTree = "<group>"; };
+		2E34D5C10BEC2EFFDA83E57936FB1627 /* UITabBarController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+PPTopMostController.m"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.m"; sourceTree = "<group>"; };
+		2FF784FAF4970D3BF312FEE5D0862DBF /* UITabBarController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+PPTopMostController.h"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.h"; sourceTree = "<group>"; };
+		30944152EC18CA79E7AA33A97E9EB633 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		310FC3ED7A66F764995332CFC7BC607B /* RMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessageView.h; path = RMessage/RMessageView.h; sourceTree = "<group>"; };
+		3363FAC6246FA645401BFB6667013D7F /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		34247AED21B92864460E4DD01C210F8C /* RMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMessage-umbrella.h"; sourceTree = "<group>"; };
+		363CAE3F7BD13FA2CA0EE412D3637D06 /* VersaPlayerRenderingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerRenderingView.swift; path = VersaPlayer/Classes/Source/Core/Rendering/VersaPlayerRenderingView.swift; sourceTree = "<group>"; };
+		374A899BDDA11E97077E96D96650C162 /* RMessage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMessage-Info.plist"; sourceTree = "<group>"; };
+		3D20C0EC5D1FFFE1E284C5F10BB68660 /* PPTopMostControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTopMostControllerProtocol.h; path = "PPTopMostController-Files/PPTopMostControllerProtocol.h"; sourceTree = "<group>"; };
+		3D889B01F98C7EF34F0E19B4DCC3279E /* ResourceBundle-RMessage-RMessage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RMessage-RMessage-Info.plist"; sourceTree = "<group>"; };
+		3ED66A1142941604539E0E8DA0D803F5 /* RMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMessage-prefix.pch"; sourceTree = "<group>"; };
+		41E611B7DF9DE6D1E65169D30CF65499 /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-umbrella.h"; sourceTree = "<group>"; };
+		4688362A2CD0389DE177ECE80F45BA3D /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497FFC5C65B99A73FFF711E722B59C32 /* PPTopMostController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PPTopMostController-Info.plist"; sourceTree = "<group>"; };
+		4A8ABA15CBCF3EB194AB9F86F5AF54D4 /* NotificationButtonBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationButtonBackground@2x.png"; path = "RMessage/Assets/Images/NotificationButtonBackground@2x.png"; sourceTree = "<group>"; };
+		4DD7979EE1105C45B3A71A2575DB7C6D /* VersaPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VersaPlayer.release.xcconfig; sourceTree = "<group>"; };
+		4F558545C80D7D5C730DA10B9DE1E9A2 /* VersaPlayerControlsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerControlsCoordinator.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/VersaPlayerControlsCoordinator.swift; sourceTree = "<group>"; };
+		50347BA823A5B5B1F3B06C498F378D65 /* RMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMessage.modulemap; sourceTree = "<group>"; };
 		55161640EB24CC873B04E0F5030C72C0 /* Pods-Media_Blaster-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Media_Blaster-frameworks.sh"; sourceTree = "<group>"; };
-		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		58E0D8CA537F228D169B930D517B35DE /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
-		5918000C5371D01642FCD1CA1E41A1F9 /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
-		5AA1CA4E6E3C6D3E2BB292363EF5EC50 /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
-		6145C792BAA4C11E1C7B5C3760098BC7 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
-		61EBE79C0A9E83C02D0116459E9ABD71 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
-		639B6850394E31FFFDDE06D0B6C7741E /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
-		63E0F4D7BB337CE49B8FDF2FEC8DB9C7 /* VersaPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VersaPlayer-Info.plist"; sourceTree = "<group>"; };
+		578A3CD0E7B95F7DCCD20FFEA6CAE398 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5AFAC0BF142A6E880B99473F8D198E92 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		5C4611E0A239BEF2D1746A05D6A76C1B /* UIViewController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PPTopMostController.m"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.m"; sourceTree = "<group>"; };
+		5E5242FC760828A85FC26A61CFF3876C /* PPTopMostController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTopMostController.release.xcconfig; sourceTree = "<group>"; };
+		62A2A74D1C42F2F4A4F9E1D23B06A376 /* NotificationBackgroundSuccessIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundSuccessIcon.png; path = RMessage/Assets/Images/NotificationBackgroundSuccessIcon.png; sourceTree = "<group>"; };
 		65D8DF59F8F2AC7DB8875A379E0C661D /* Pods-Media_Blaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Media_Blaster-umbrella.h"; sourceTree = "<group>"; };
+		666F1209D46C9C458F1822409F806A7C /* VersaPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VersaPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		674A89791D1ADCA51E83D86102F5B94E /* NotificationBackgroundWarningIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundWarningIcon@2x.png"; path = "RMessage/Assets/Images/NotificationBackgroundWarningIcon@2x.png"; sourceTree = "<group>"; };
 		67A4D4DD084F5BCCA66B326C45EF9C75 /* VersaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VersaPlayer.framework; path = VersaPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D07318E4918F42FD008E4098F9E09E4 /* VersaPlayerControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerControls.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/VersaPlayerControls.swift; sourceTree = "<group>"; };
-		70187616C5F294CCEE0160B727B21B9A /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
-		728D2649399FAE763D9FE02A2E305719 /* VersaPlayerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerItem.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayerItem.swift; sourceTree = "<group>"; };
-		730358ED1548B207C292A6AD08A84334 /* VersaPlayerGestureRecieverView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerGestureRecieverView.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift; sourceTree = "<group>"; };
-		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7847FDDC3AA3ACA64F1B7CF2E8B7CA99 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Models/Direction.swift; sourceTree = "<group>"; };
-		785DBD40970111FECAEA6969BBD53F0A /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
-		8806910B79F07448A01F5AD8BF54E25B /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
-		89D68E8FF3E681EB68552DA82AB4130C /* VersaPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VersaPlayer-prefix.pch"; sourceTree = "<group>"; };
-		8B3EF93A36B139A8588519ABF57178E0 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Protocols/Animation.swift; sourceTree = "<group>"; };
-		8E2BC95B398A6585E9BFF476EE342B24 /* VersaPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VersaPlayer-umbrella.h"; sourceTree = "<group>"; };
-		8E35B5F897994FC56080E3C1B5C556BD /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
-		92CA05CF0D53C568CBF79562E49E9005 /* VersaPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VersaPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		67B1A690CE941230D46376B85667D429 /* PPTopMostController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTopMostController-dummy.m"; sourceTree = "<group>"; };
+		6A437CB061EA089515E917F4CF7EC653 /* VersaPlayerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerItem.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayerItem.swift; sourceTree = "<group>"; };
+		6BCC3ACEA1041AC1D8FEF695E1D83ABF /* VersaPlayerCaptionStyling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerCaptionStyling.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayerCaptionStyling.swift; sourceTree = "<group>"; };
+		6C7A3C8FBE188F34C4B7C371DB4C8DA8 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		6CB2E0B78B0DF2217AE67360B6B88495 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		71D5523B97CC710332CC75F7F1A58078 /* VersaPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayer.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayer.swift; sourceTree = "<group>"; };
+		7350B247CE345D198416FCCE17761066 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HexColors.framework; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7648A63E8ADB9401183CB4CC3004CB11 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		78DF3783430EDE74E1068DC4864F802F /* RMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessage.m; path = RMessage/RMessage.m; sourceTree = "<group>"; };
+		846741178B382AAE49B29E554EE22575 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		8818EA92693F257CEB519260B89F021C /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		8C111DBC8A20B30FF86CFDEFAFEEB71F /* VersaPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VersaPlayer-umbrella.h"; sourceTree = "<group>"; };
+		8F75D5F57FFDA3E2C19B25B0AF7FBA25 /* RMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMessage.framework; path = RMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9071F1B69A4A7B560AB12835CD9A5F25 /* VersaStatefulButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaStatefulButton.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Controls/VersaStatefulButton.swift; sourceTree = "<group>"; };
+		90A41E2D6B087DE2C18C48D6E3510404 /* VersaPlayerMediaTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerMediaTrack.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayerMediaTrack.swift; sourceTree = "<group>"; };
+		9297B7A0FD6A731A9E40BF2AA0479DD9 /* VersaPlayerControlsBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerControlsBehaviour.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Core/VersaPlayerControlsBehaviour.swift; sourceTree = "<group>"; };
+		92FBD88C4A360ADEA980F829E9A5B8DC /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HexColors.modulemap; sourceTree = "<group>"; };
+		94CDF82CBB1E0F4A2A1EB2774CB5EB2F /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		97298FE6606C6D28072C5267994D91A3 /* HexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = Classes/HexColors.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A05D2CEAA925CA94A0B228B11EE5F218 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
-		A089ACD83642629C866028361D8BC143 /* VersaPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerView.swift; path = VersaPlayer/Classes/Source/VersaPlayerView.swift; sourceTree = "<group>"; };
-		A1D0E421A0D38B22E82F335B1C5899DD /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
-		A47E35F439852AC03064D5123CE59234 /* VersaPlayerGestureRecieverViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerGestureRecieverViewDelegate.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Core/VersaPlayerGestureRecieverViewDelegate.swift; sourceTree = "<group>"; };
-		A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8472736E57BB6EA407D82F64999D100 /* VersaPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayer.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayer.swift; sourceTree = "<group>"; };
+		9ED07324A19B1EBB4F3786E79D2FB95A /* VersaPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VersaPlayer-prefix.pch"; sourceTree = "<group>"; };
+		9ED5798B8D251DD760073BE4392B0B0D /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		9EFDA52DD2552AEF17C13D6532E62883 /* RMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMessage.release.xcconfig; sourceTree = "<group>"; };
+		A2C49399C34B87771E2F259225043DCB /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		A8CFB18B2378A6CD79C06ABCB37E485A /* PPTopMostController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTopMostController-prefix.pch"; sourceTree = "<group>"; };
 		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A93605D3E7432835DBF1AB4D7768BE17 /* VersaPlayerControlsBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerControlsBehaviour.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Core/VersaPlayerControlsBehaviour.swift; sourceTree = "<group>"; };
-		AA29B14855C0B697E0C6A92ADCECD44C /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
-		AB5783A690D0CC499AEE99BEA8F69E55 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
-		AC67F0D01B6D93DABAED93676E0DE04D /* VersaPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VersaPlayer.release.xcconfig; sourceTree = "<group>"; };
-		B06A3FB91E2D2EB3D3E09F235DCAD8B3 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
-		B219F23DEDA6032DB1CB745823DF5B1A /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
+		AB4CC93D09DD0153E71B7B6BDC047503 /* RMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessageView.m; path = RMessage/RMessageView.m; sourceTree = "<group>"; };
+		B008D4135C1A4703E30346C5A4C734CB /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		B16F64D7C57BCFE86D49A56A6CDD054E /* VersaPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerView.swift; path = VersaPlayer/Classes/Source/VersaPlayerView.swift; sourceTree = "<group>"; };
+		B21121E650F8C9DF8B433984C7C7AD0A /* VersaSeekbarSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaSeekbarSlider.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Controls/VersaSeekbarSlider.swift; sourceTree = "<group>"; };
+		B3AB36BCC59F827EA2CA3C5E2B86F354 /* VersaPlayerDecryptionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerDecryptionDelegate.swift; path = VersaPlayer/Classes/Source/Core/Protocols/VersaPlayerDecryptionDelegate.swift; sourceTree = "<group>"; };
+		B6CC063A58211F5EBFB00ADA97B32823 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
 		B7A02CFA802D4D1E6C44474A8E80046D /* Pods_Media_Blaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Media_Blaster.framework; path = "Pods-Media_Blaster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8C4BE0FB1FB1F53F4E26F80F35F8BA0 /* VersaPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VersaPlayer.modulemap; sourceTree = "<group>"; };
-		B9B30066F99A7EC0890751670FC60C90 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
-		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B88BAAB4076BB5D108350E4844686B73 /* PPTopMostController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPTopMostController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CF673C06D3E8D6E6B1B4710BC334F7 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		BCB78048C8CC8C710308314E81E972B0 /* VersaPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VersaPlayer-dummy.m"; sourceTree = "<group>"; };
+		BD2946024791DAC85EF550FA9291DB51 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		BFD543F97822AAAF039A128DE4FFCFF6 /* Pods-Media_Blaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Media_Blaster-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C87240310F4F82F686D0F9B8AC0C43B2 /* VersaPlayerMediaTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerMediaTrack.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayerMediaTrack.swift; sourceTree = "<group>"; };
-		CA43E3FC4F7FB0D35CE1CEC4E4416DB2 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		C327357CA71FB5F2B0103C9EE243BECE /* VersaPlayerControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerControls.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/VersaPlayerControls.swift; sourceTree = "<group>"; };
+		C4C185E6CF3921DC369286D0EFE8861C /* NotificationBackgroundWarningIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundWarningIcon.png; path = RMessage/Assets/Images/NotificationBackgroundWarningIcon.png; sourceTree = "<group>"; };
+		C4E136D63104184E47A5C022241001E3 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		C62AD52CCFCC4E4BF3EFD1A748206502 /* VersaPlayerPlaybackDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerPlaybackDelegate.swift; path = VersaPlayer/Classes/Source/Core/Protocols/VersaPlayerPlaybackDelegate.swift; sourceTree = "<group>"; };
+		C661EA541EBF00D09AF221A152EB7CEE /* PPTopMostController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPTopMostController.framework; path = PPTopMostController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE39DC0963AEE96D9D7AFE35B6D282CA /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NotificationBackgroundErrorIcon.png; path = RMessage/Assets/Images/NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
 		D023382AB6175C014E97219F462C434A /* Pods-Media_Blaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Media_Blaster.modulemap"; sourceTree = "<group>"; };
-		D544FF6BBB3B809F819890C46EBD4E19 /* ViewAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.release.xcconfig; sourceTree = "<group>"; };
+		D0EF5CEFD0A98A124D0E2354122328B0 /* NotificationBackgroundSuccessIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NotificationBackgroundSuccessIcon@2x.png"; path = "RMessage/Assets/Images/NotificationBackgroundSuccessIcon@2x.png"; sourceTree = "<group>"; };
+		D181C0E0F9C0B8CB87EAC8B6AF390501 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		D72F4D2CEAE22031DB7895C87AB5E155 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
 		DA00988C79E7051AE096C4A4EFCC0471 /* Pods-Media_Blaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Media_Blaster.debug.xcconfig"; sourceTree = "<group>"; };
-		DB8F3C7214FB7F8DC98C430F793777F6 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
-		DD94383686B0FFA5C2A8F90D467EDEED /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
-		E7A4D6BE28B7C8F0D20F0F6429B9BB5E /* VersaSeekbarSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaSeekbarSlider.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Controls/VersaSeekbarSlider.swift; sourceTree = "<group>"; };
-		EED9F0A6B8FE06FA5B124878972B0CAE /* VersaPlayerCaptionStyling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerCaptionStyling.swift; path = VersaPlayer/Classes/Source/Core/Player/VersaPlayerCaptionStyling.swift; sourceTree = "<group>"; };
-		F0EC8B0640210A061290FBF16AD81D14 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
-		F2A2729EE0AC6CA9F2A435502F774BDC /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		DBE3B182462CB3CA1870DD35A04CE9ED /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
+		DDB3210265D2FFB6D99C62D768654B2C /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF59B54DC545F0F202EF8F4FB2FF3A04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E09A0595958E93C287B51A4938F88AD1 /* RMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMessage.debug.xcconfig; sourceTree = "<group>"; };
+		E1D4A1A343AAA5DF2ACAC0F8CDE3ABF4 /* HexColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.debug.xcconfig; sourceTree = "<group>"; };
+		E5235857F57887A83819E7C3D63FD779 /* RMessageDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = RMessageDefaultDesign.json; path = RMessage/Assets/RMessageDefaultDesign.json; sourceTree = "<group>"; };
+		E59D26DEF697F791BFF83658DF2CEF55 /* VersaPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VersaPlayer.modulemap; sourceTree = "<group>"; };
+		E78368908B8C73D9EC10D5E717C018CD /* VersaPlayerGestureRecieverView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerGestureRecieverView.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift; sourceTree = "<group>"; };
+		E93578191FEB18523437A5A3655D71B3 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		EC7149820F48A7C09F6321DE8B89A2CE /* RMessage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RMessage.bundle; path = "RMessage-RMessage.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38D3DCE2FB81D3E928776D367A1D04A /* VersaPlayerGestureRecieverViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaPlayerGestureRecieverViewDelegate.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Core/VersaPlayerGestureRecieverViewDelegate.swift; sourceTree = "<group>"; };
+		F40F556112172920575319FFF743D51F /* VersaTimeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersaTimeLabel.swift; path = VersaPlayer/Classes/Source/VersaPlayerControls/Controls/VersaTimeLabel.swift; sourceTree = "<group>"; };
+		F54EC9058DAE25A94F033AA117A93F4E /* UINavigationController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PPTopMostController.h"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.h"; sourceTree = "<group>"; };
+		F767597C1EC953ECF5631FB31C23A08E /* PPTopMostController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTopMostController-umbrella.h"; sourceTree = "<group>"; };
+		F8E63F82FBDAC1C763FF4AA575CA2394 /* RMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMessage-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,61 +288,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A018179C4518662D5840AEEC327F7186 /* Frameworks */ = {
+		63715CD5CD2C0A9AEABD53F758EC1815 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD32539F3EEA889773989D74554CDD54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */ = {
+		6DDDF4F237986352FD6C50D1F8FF91EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */,
+				B4B1BB6979666635A2D398BFFE67BC12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76489AAC64E97C78E9488117E28D726D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAB7A5FC7F9FB0B67955FED0A89700D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC38A90569EC83B62BB398CD8AF7F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0119FEAEA1A778A9EA8C387E9C2E0F8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF5B38D2564E92AD868ED67870C2A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9693B84ECCEAFC33F96EAA0FCCE365 /* Foundation.framework in Frameworks */,
+				7F7ABE9B6E4224D215B15FC081D721E7 /* HexColors.framework in Frameworks */,
+				405A7A1FEEA2FA29569FA497A9D9D5FD /* PPTopMostController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		216D11D6253026459814863746CC99A1 /* iOS */ = {
+		22D85143A7E2D78F19278164EB56E145 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
-				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
-				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
-				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
+				4688362A2CD0389DE177ECE80F45BA3D /* HexColors.framework */,
+				B88BAAB4076BB5D108350E4844686B73 /* PPTopMostController.framework */,
+				B9873EEDDC4AE1B4F6FF03BDDD8D3DFC /* iOS */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		283735C67BA84C409803420096A859E1 /* VersaPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				A8472736E57BB6EA407D82F64999D100 /* VersaPlayer.swift */,
-				EED9F0A6B8FE06FA5B124878972B0CAE /* VersaPlayerCaptionStyling.swift */,
-				6D07318E4918F42FD008E4098F9E09E4 /* VersaPlayerControls.swift */,
-				A93605D3E7432835DBF1AB4D7768BE17 /* VersaPlayerControlsBehaviour.swift */,
-				2778A4C41EADAAD5EEF64E3B78313861 /* VersaPlayerControlsCoordinator.swift */,
-				31DA26B8D3971F476171FA69DB3EFCEC /* VersaPlayerDecryptionDelegate.swift */,
-				1AAA7CF34741EE3CAFA045244321E2E3 /* VersaPlayerExtension.swift */,
-				730358ED1548B207C292A6AD08A84334 /* VersaPlayerGestureRecieverView.swift */,
-				A47E35F439852AC03064D5123CE59234 /* VersaPlayerGestureRecieverViewDelegate.swift */,
-				728D2649399FAE763D9FE02A2E305719 /* VersaPlayerItem.swift */,
-				C87240310F4F82F686D0F9B8AC0C43B2 /* VersaPlayerMediaTrack.swift */,
-				106CEF178A8A655B287CF6DF00934E94 /* VersaPlayerPlaybackDelegate.swift */,
-				3B25EF40390A00826EA6C804702CF412 /* VersaPlayerPlaybackError.swift */,
-				27CEF97A601649FB8106636889666933 /* VersaPlayerRenderingView.swift */,
-				A089ACD83642629C866028361D8BC143 /* VersaPlayerView.swift */,
-				E7A4D6BE28B7C8F0D20F0F6429B9BB5E /* VersaSeekbarSlider.swift */,
-				21F8E3684E9B7BAC87144364EA19B7D9 /* VersaStatefulButton.swift */,
-				28EE8E8FEA9368238A70D511A6978191 /* VersaTimeLabel.swift */,
-				3ED045785F3D967769519619FD2E45FA /* Support Files */,
-			);
-			name = VersaPlayer;
-			path = VersaPlayer;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		34D796285A1AC837F6350C441E65F6AE /* Targets Support Files */ = {
@@ -257,119 +350,175 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		371E4D37E03352F8E625E053418C787E /* Pods */ = {
+		384853C8F2303936FDD7F11DC5975D6A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				79BAC11C447AE33D37CC0EB160BD2BC1 /* IQKeyboardManagerSwift */,
-				283735C67BA84C409803420096A859E1 /* VersaPlayer */,
-				6B28028B71FA0045128F8C8D8827AA25 /* ViewAnimator */,
+				0F8AAE0035B543FF91552D64D0274327 /* PPTopMostController.modulemap */,
+				67B1A690CE941230D46376B85667D429 /* PPTopMostController-dummy.m */,
+				497FFC5C65B99A73FFF711E722B59C32 /* PPTopMostController-Info.plist */,
+				A8CFB18B2378A6CD79C06ABCB37E485A /* PPTopMostController-prefix.pch */,
+				F767597C1EC953ECF5631FB31C23A08E /* PPTopMostController-umbrella.h */,
+				16C1F18E5594E4161FF3F8CFBFE9AF39 /* PPTopMostController.debug.xcconfig */,
+				5E5242FC760828A85FC26A61CFF3876C /* PPTopMostController.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/PPTopMostController";
 			sourceTree = "<group>";
 		};
-		3D6FEB9F35D4883B445A2A1C3952B1B6 /* Support Files */ = {
+		4995660A8E850FF0E2DEFD5F7C112C71 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				19C83E2A2A94872F6B7135F5E665FC1A /* IQKeyboardManagerSwift.modulemap */,
-				6145C792BAA4C11E1C7B5C3760098BC7 /* IQKeyboardManagerSwift-dummy.m */,
-				02689008742E122BB669C0FC363B429D /* IQKeyboardManagerSwift-Info.plist */,
-				DD94383686B0FFA5C2A8F90D467EDEED /* IQKeyboardManagerSwift-prefix.pch */,
-				F0EC8B0640210A061290FBF16AD81D14 /* IQKeyboardManagerSwift-umbrella.h */,
-				639B6850394E31FFFDDE06D0B6C7741E /* IQKeyboardManagerSwift.debug.xcconfig */,
-				B219F23DEDA6032DB1CB745823DF5B1A /* IQKeyboardManagerSwift.release.xcconfig */,
+				8818EA92693F257CEB519260B89F021C /* IQKeyboardManagerSwift.modulemap */,
+				7648A63E8ADB9401183CB4CC3004CB11 /* IQKeyboardManagerSwift-dummy.m */,
+				A2C49399C34B87771E2F259225043DCB /* IQKeyboardManagerSwift-Info.plist */,
+				6C7A3C8FBE188F34C4B7C371DB4C8DA8 /* IQKeyboardManagerSwift-prefix.pch */,
+				6CB2E0B78B0DF2217AE67360B6B88495 /* IQKeyboardManagerSwift-umbrella.h */,
+				3363FAC6246FA645401BFB6667013D7F /* IQKeyboardManagerSwift.debug.xcconfig */,
+				DBE3B182462CB3CA1870DD35A04CE9ED /* IQKeyboardManagerSwift.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IQKeyboardManagerSwift";
 			sourceTree = "<group>";
 		};
-		3ED045785F3D967769519619FD2E45FA /* Support Files */ = {
+		4FB55ED44C1A41AA607017DD3D3C418C /* HexColors */ = {
 			isa = PBXGroup;
 			children = (
-				B8C4BE0FB1FB1F53F4E26F80F35F8BA0 /* VersaPlayer.modulemap */,
-				45E76271F631D92A2F1336F262755C3F /* VersaPlayer-dummy.m */,
-				63E0F4D7BB337CE49B8FDF2FEC8DB9C7 /* VersaPlayer-Info.plist */,
-				89D68E8FF3E681EB68552DA82AB4130C /* VersaPlayer-prefix.pch */,
-				8E2BC95B398A6585E9BFF476EE342B24 /* VersaPlayer-umbrella.h */,
-				92CA05CF0D53C568CBF79562E49E9005 /* VersaPlayer.debug.xcconfig */,
-				AC67F0D01B6D93DABAED93676E0DE04D /* VersaPlayer.release.xcconfig */,
+				97298FE6606C6D28072C5267994D91A3 /* HexColors.h */,
+				0074724866D04DD67A3BC215EDC418F2 /* HexColors.m */,
+				767E297AA6E5CD8DDC179EA3E28E54E4 /* Support Files */,
+			);
+			name = HexColors;
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		57E83655F0F9E71B421C4CBB1600CDE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB55ED44C1A41AA607017DD3D3C418C /* HexColors */,
+				DA8E0A0BE866860B90778988C6D2F2B1 /* IQKeyboardManagerSwift */,
+				84A1D7259E99D1524201F31A6AC81BE9 /* PPTopMostController */,
+				BADA14785EE18B45ECAA1FD9A3154D2F /* RMessage */,
+				D4F436CEC5B50B431F05F07A6B284305 /* VersaPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		767E297AA6E5CD8DDC179EA3E28E54E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FBD88C4A360ADEA980F829E9A5B8DC /* HexColors.modulemap */,
+				1ACBBC864F45B19C6DE48CE59209FFED /* HexColors-dummy.m */,
+				2BAA2A6C839EE9294D5F98B23668E27D /* HexColors-Info.plist */,
+				D72F4D2CEAE22031DB7895C87AB5E155 /* HexColors-prefix.pch */,
+				41E611B7DF9DE6D1E65169D30CF65499 /* HexColors-umbrella.h */,
+				E1D4A1A343AAA5DF2ACAC0F8CDE3ABF4 /* HexColors.debug.xcconfig */,
+				282B13D249C3787DD1E1AA020C675058 /* HexColors.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
+			sourceTree = "<group>";
+		};
+		84A1D7259E99D1524201F31A6AC81BE9 /* PPTopMostController */ = {
+			isa = PBXGroup;
+			children = (
+				3D20C0EC5D1FFFE1E284C5F10BB68660 /* PPTopMostControllerProtocol.h */,
+				F54EC9058DAE25A94F033AA117A93F4E /* UINavigationController+PPTopMostController.h */,
+				1550DC690129330E02C2183EF58E91FC /* UINavigationController+PPTopMostController.m */,
+				2FF784FAF4970D3BF312FEE5D0862DBF /* UITabBarController+PPTopMostController.h */,
+				2E34D5C10BEC2EFFDA83E57936FB1627 /* UITabBarController+PPTopMostController.m */,
+				0CD9561F0F61668827F5EF64AE0AAB46 /* UIViewController+PPTopMostController.h */,
+				5C4611E0A239BEF2D1746A05D6A76C1B /* UIViewController+PPTopMostController.m */,
+				384853C8F2303936FDD7F11DC5975D6A /* Support Files */,
+			);
+			name = PPTopMostController;
+			path = PPTopMostController;
+			sourceTree = "<group>";
+		};
+		9C625FB03F2D7853A93036DC80D1A75E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE39DC0963AEE96D9D7AFE35B6D282CA /* NotificationBackgroundErrorIcon.png */,
+				14B36A421D52F5936BBC78755CB9A613 /* NotificationBackgroundErrorIcon@2x.png */,
+				62A2A74D1C42F2F4A4F9E1D23B06A376 /* NotificationBackgroundSuccessIcon.png */,
+				D0EF5CEFD0A98A124D0E2354122328B0 /* NotificationBackgroundSuccessIcon@2x.png */,
+				C4C185E6CF3921DC369286D0EFE8861C /* NotificationBackgroundWarningIcon.png */,
+				674A89791D1ADCA51E83D86102F5B94E /* NotificationBackgroundWarningIcon@2x.png */,
+				20756E1C10315B4AD1D9371FAD201A7B /* NotificationButtonBackground.png */,
+				4A8ABA15CBCF3EB194AB9F86F5AF54D4 /* NotificationButtonBackground@2x.png */,
+				E5235857F57887A83819E7C3D63FD779 /* RMessageDefaultDesign.json */,
+				131714C6DBFAE305C40149EED07980F8 /* RMessageView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B6C017B0D563F4CE841BF77A70F8041F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7350B247CE345D198416FCCE17761066 /* HexColors.framework */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				B7A02CFA802D4D1E6C44474A8E80046D /* Pods_Media_Blaster.framework */,
+				C661EA541EBF00D09AF221A152EB7CEE /* PPTopMostController.framework */,
+				EC7149820F48A7C09F6321DE8B89A2CE /* RMessage.bundle */,
+				8F75D5F57FFDA3E2C19B25B0AF7FBA25 /* RMessage.framework */,
+				67A4D4DD084F5BCCA66B326C45EF9C75 /* VersaPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9873EEDDC4AE1B4F6FF03BDDD8D3DFC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF59B54DC545F0F202EF8F4FB2FF3A04 /* CoreGraphics.framework */,
+				DE85A1D971E073978902FDE643625BC4 /* Foundation.framework */,
+				107A9C04AE5256EC91EF76553B384213 /* QuartzCore.framework */,
+				578A3CD0E7B95F7DCCD20FFEA6CAE398 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BADA14785EE18B45ECAA1FD9A3154D2F /* RMessage */ = {
+			isa = PBXGroup;
+			children = (
+				0DB6B7822C72E662D234A8ADCC69BF2D /* RMessage.h */,
+				78DF3783430EDE74E1068DC4864F802F /* RMessage.m */,
+				310FC3ED7A66F764995332CFC7BC607B /* RMessageView.h */,
+				AB4CC93D09DD0153E71B7B6BDC047503 /* RMessageView.m */,
+				9C625FB03F2D7853A93036DC80D1A75E /* Resources */,
+				C0EB50C249B85E703557DD3AF2FF5250 /* Support Files */,
+			);
+			name = RMessage;
+			path = RMessage;
+			sourceTree = "<group>";
+		};
+		BB936CABEDB3A876F5F116A6134E2334 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E59D26DEF697F791BFF83658DF2CEF55 /* VersaPlayer.modulemap */,
+				BCB78048C8CC8C710308314E81E972B0 /* VersaPlayer-dummy.m */,
+				0B4360B84722578A139A9B2A1DB081A2 /* VersaPlayer-Info.plist */,
+				9ED07324A19B1EBB4F3786E79D2FB95A /* VersaPlayer-prefix.pch */,
+				8C111DBC8A20B30FF86CFDEFAFEEB71F /* VersaPlayer-umbrella.h */,
+				666F1209D46C9C458F1822409F806A7C /* VersaPlayer.debug.xcconfig */,
+				4DD7979EE1105C45B3A71A2575DB7C6D /* VersaPlayer.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VersaPlayer";
 			sourceTree = "<group>";
 		};
-		452BC4FDF7BB0C3B54DA012F3F6BC366 /* Products */ = {
+		C0EB50C249B85E703557DD3AF2FF5250 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
-				B7A02CFA802D4D1E6C44474A8E80046D /* Pods_Media_Blaster.framework */,
-				67A4D4DD084F5BCCA66B326C45EF9C75 /* VersaPlayer.framework */,
-				A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6B28028B71FA0045128F8C8D8827AA25 /* ViewAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				8B3EF93A36B139A8588519ABF57178E0 /* Animation.swift */,
-				510BD7D795455A98DF0C395133B313F6 /* AnimationType.swift */,
-				7847FDDC3AA3ACA64F1B7CF2E8B7CA99 /* Direction.swift */,
-				1C7E9D3B3D4B96BAAC8EBD5B62993BE6 /* UICollectionView + ViewAnimator.swift */,
-				5AA1CA4E6E3C6D3E2BB292363EF5EC50 /* UITableView + ViewAnimator.swift */,
-				28CDE5D8B324B0B89906D54806B26B5B /* ViewAnimator.swift */,
-				61EBE79C0A9E83C02D0116459E9ABD71 /* ViewAnimatorConfig.swift */,
-				965741CF5711257DD5FE08A036020F76 /* Support Files */,
-			);
-			name = ViewAnimator;
-			path = ViewAnimator;
-			sourceTree = "<group>";
-		};
-		79BAC11C447AE33D37CC0EB160BD2BC1 /* IQKeyboardManagerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				04B11A4B31ADC9DD353B6ECCF70356D4 /* IQBarButtonItem.swift */,
-				49CAB722B507BAC27A9F110CF528C482 /* IQInvocation.swift */,
-				785DBD40970111FECAEA6969BBD53F0A /* IQKeyboardManager.swift */,
-				70187616C5F294CCEE0160B727B21B9A /* IQKeyboardManagerConstants.swift */,
-				58E0D8CA537F228D169B930D517B35DE /* IQKeyboardManagerConstantsInternal.swift */,
-				F2A2729EE0AC6CA9F2A435502F774BDC /* IQKeyboardReturnKeyHandler.swift */,
-				CA43E3FC4F7FB0D35CE1CEC4E4416DB2 /* IQNSArray+Sort.swift */,
-				A1D0E421A0D38B22E82F335B1C5899DD /* IQPreviousNextView.swift */,
-				DB8F3C7214FB7F8DC98C430F793777F6 /* IQTextView.swift */,
-				4D183D94CBF11089F3E79DA974E339EC /* IQTitleBarButtonItem.swift */,
-				4BBD91CC6917EE30D23C621A787D12AE /* IQToolbar.swift */,
-				AA29B14855C0B697E0C6A92ADCECD44C /* IQUIScrollView+Additions.swift */,
-				8806910B79F07448A01F5AD8BF54E25B /* IQUITextFieldView+Additions.swift */,
-				B9B30066F99A7EC0890751670FC60C90 /* IQUIView+Hierarchy.swift */,
-				B06A3FB91E2D2EB3D3E09F235DCAD8B3 /* IQUIView+IQKeyboardToolbar.swift */,
-				AB5783A690D0CC499AEE99BEA8F69E55 /* IQUIViewController+Additions.swift */,
-				3D6FEB9F35D4883B445A2A1C3952B1B6 /* Support Files */,
-			);
-			name = IQKeyboardManagerSwift;
-			path = IQKeyboardManagerSwift;
-			sourceTree = "<group>";
-		};
-		965741CF5711257DD5FE08A036020F76 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E35B5F897994FC56080E3C1B5C556BD /* ViewAnimator.modulemap */,
-				005EE674FC9605B3D73EBBE3ED9FC402 /* ViewAnimator-dummy.m */,
-				5918000C5371D01642FCD1CA1E41A1F9 /* ViewAnimator-Info.plist */,
-				A05D2CEAA925CA94A0B228B11EE5F218 /* ViewAnimator-prefix.pch */,
-				01094D409C57FF4A8A4A7B3377E1B0B7 /* ViewAnimator-umbrella.h */,
-				22A34B5D4E5C97CE8B95BBC7C05BBC70 /* ViewAnimator.debug.xcconfig */,
-				D544FF6BBB3B809F819890C46EBD4E19 /* ViewAnimator.release.xcconfig */,
+				3D889B01F98C7EF34F0E19B4DCC3279E /* ResourceBundle-RMessage-RMessage-Info.plist */,
+				50347BA823A5B5B1F3B06C498F378D65 /* RMessage.modulemap */,
+				F8E63F82FBDAC1C763FF4AA575CA2394 /* RMessage-dummy.m */,
+				374A899BDDA11E97077E96D96650C162 /* RMessage-Info.plist */,
+				3ED66A1142941604539E0E8DA0D803F5 /* RMessage-prefix.pch */,
+				34247AED21B92864460E4DD01C210F8C /* RMessage-umbrella.h */,
+				E09A0595958E93C287B51A4938F88AD1 /* RMessage.debug.xcconfig */,
+				9EFDA52DD2552AEF17C13D6532E62883 /* RMessage.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ViewAnimator";
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				216D11D6253026459814863746CC99A1 /* iOS */,
-			);
-			name = Frameworks;
+			path = "../Target Support Files/RMessage";
 			sourceTree = "<group>";
 		};
 		C79EBFA870CDE85DB7E78954C29C4AD9 /* Pods-Media_Blaster */ = {
@@ -393,21 +542,92 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				371E4D37E03352F8E625E053418C787E /* Pods */,
-				452BC4FDF7BB0C3B54DA012F3F6BC366 /* Products */,
+				22D85143A7E2D78F19278164EB56E145 /* Frameworks */,
+				57E83655F0F9E71B421C4CBB1600CDE8 /* Pods */,
+				B6C017B0D563F4CE841BF77A70F8041F /* Products */,
 				34D796285A1AC837F6350C441E65F6AE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D4F436CEC5B50B431F05F07A6B284305 /* VersaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				71D5523B97CC710332CC75F7F1A58078 /* VersaPlayer.swift */,
+				6BCC3ACEA1041AC1D8FEF695E1D83ABF /* VersaPlayerCaptionStyling.swift */,
+				C327357CA71FB5F2B0103C9EE243BECE /* VersaPlayerControls.swift */,
+				9297B7A0FD6A731A9E40BF2AA0479DD9 /* VersaPlayerControlsBehaviour.swift */,
+				4F558545C80D7D5C730DA10B9DE1E9A2 /* VersaPlayerControlsCoordinator.swift */,
+				B3AB36BCC59F827EA2CA3C5E2B86F354 /* VersaPlayerDecryptionDelegate.swift */,
+				1940F47D3A781CA8253DCB099BC4B1CA /* VersaPlayerExtension.swift */,
+				E78368908B8C73D9EC10D5E717C018CD /* VersaPlayerGestureRecieverView.swift */,
+				F38D3DCE2FB81D3E928776D367A1D04A /* VersaPlayerGestureRecieverViewDelegate.swift */,
+				6A437CB061EA089515E917F4CF7EC653 /* VersaPlayerItem.swift */,
+				90A41E2D6B087DE2C18C48D6E3510404 /* VersaPlayerMediaTrack.swift */,
+				C62AD52CCFCC4E4BF3EFD1A748206502 /* VersaPlayerPlaybackDelegate.swift */,
+				07DBA9FCBCD28C48CC8FC366F7E3EDD1 /* VersaPlayerPlaybackError.swift */,
+				363CAE3F7BD13FA2CA0EE412D3637D06 /* VersaPlayerRenderingView.swift */,
+				B16F64D7C57BCFE86D49A56A6CDD054E /* VersaPlayerView.swift */,
+				B21121E650F8C9DF8B433984C7C7AD0A /* VersaSeekbarSlider.swift */,
+				9071F1B69A4A7B560AB12835CD9A5F25 /* VersaStatefulButton.swift */,
+				F40F556112172920575319FFF743D51F /* VersaTimeLabel.swift */,
+				BB936CABEDB3A876F5F116A6134E2334 /* Support Files */,
+			);
+			name = VersaPlayer;
+			path = VersaPlayer;
+			sourceTree = "<group>";
+		};
+		DA8E0A0BE866860B90778988C6D2F2B1 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				145A51F57CE60E48DFA789E3BFAA5727 /* IQBarButtonItem.swift */,
+				5AFAC0BF142A6E880B99473F8D198E92 /* IQInvocation.swift */,
+				C4E136D63104184E47A5C022241001E3 /* IQKeyboardManager.swift */,
+				DDB3210265D2FFB6D99C62D768654B2C /* IQKeyboardManagerConstants.swift */,
+				B8CF673C06D3E8D6E6B1B4710BC334F7 /* IQKeyboardManagerConstantsInternal.swift */,
+				B6CC063A58211F5EBFB00ADA97B32823 /* IQKeyboardReturnKeyHandler.swift */,
+				94CDF82CBB1E0F4A2A1EB2774CB5EB2F /* IQNSArray+Sort.swift */,
+				846741178B382AAE49B29E554EE22575 /* IQPreviousNextView.swift */,
+				0FCE0BF5BA80DDCE69E8D85B7C4B5F85 /* IQTextView.swift */,
+				D181C0E0F9C0B8CB87EAC8B6AF390501 /* IQTitleBarButtonItem.swift */,
+				BD2946024791DAC85EF550FA9291DB51 /* IQToolbar.swift */,
+				E93578191FEB18523437A5A3655D71B3 /* IQUIScrollView+Additions.swift */,
+				30944152EC18CA79E7AA33A97E9EB633 /* IQUITextFieldView+Additions.swift */,
+				069A7ED565998D6C5D66FD907DE34A29 /* IQUIView+Hierarchy.swift */,
+				9ED5798B8D251DD760073BE4392B0B0D /* IQUIView+IQKeyboardToolbar.swift */,
+				B008D4135C1A4703E30346C5A4C734CB /* IQUIViewController+Additions.swift */,
+				4995660A8E850FF0E2DEFD5F7C112C71 /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A7D4EAB5BDB0941F42A31FCD3556EBF2 /* Headers */ = {
+		1D5E9F56730D4E81967C8E780DEB9511 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB9BD7FDD69F158430DA65896A1EAD8 /* Pods-Media_Blaster-umbrella.h in Headers */,
+				617BD717DD89C62C9647694EF5E37C3E /* RMessage-umbrella.h in Headers */,
+				B0732B676B5EB6F3B75C60B493A954F3 /* RMessage.h in Headers */,
+				8EECE6EA829AE06D3F48C1C947CF433B /* RMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CACBE7901E8A88FAD36897A30D5F0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3690C6D0025CE35783B952876C64DEA /* Pods-Media_Blaster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8A1801502C1157C29E19615B41F4C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F732D96100549D2D5A21ABF0155B0AA /* HexColors-umbrella.h in Headers */,
+				1AC3D91AD9CE54DD7048F077309F25C0 /* HexColors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +639,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C01257361E898E374FB0A6911FB063C7 /* Headers */ = {
+		EF940E94EABB114D88FF6069C96E3362 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */,
+				CCFA5333643AA118570323CCCD8CD453 /* PPTopMostController-umbrella.h in Headers */,
+				8DE22AC68EF2E335F3BB7FC10C1B532D /* PPTopMostControllerProtocol.h in Headers */,
+				408FC3D3914D69E7F838641F26CD0DD0 /* UINavigationController+PPTopMostController.h in Headers */,
+				0D9428C8C4104345B01C85FF95B3B1EC /* UITabBarController+PPTopMostController.h in Headers */,
+				5289B857EE2CD313755D2988CF787E27 /* UIViewController+PPTopMostController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,41 +664,43 @@
 /* Begin PBXNativeTarget section */
 		3A5716032F8CEDA64DF699D1224EB147 /* Pods-Media_Blaster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F457E395AE084A096779A80A6A9A705 /* Build configuration list for PBXNativeTarget "Pods-Media_Blaster" */;
+			buildConfigurationList = 8693523129BEC2A619BBA66F9CB9AE15 /* Build configuration list for PBXNativeTarget "Pods-Media_Blaster" */;
 			buildPhases = (
-				A7D4EAB5BDB0941F42A31FCD3556EBF2 /* Headers */,
-				4B35C2D227D1BF0793BD88E5B9C987BF /* Sources */,
-				A018179C4518662D5840AEEC327F7186 /* Frameworks */,
-				23BCD0350386EE12078023F48E7A7223 /* Resources */,
+				45CACBE7901E8A88FAD36897A30D5F0B /* Headers */,
+				37D425CFE605EE5209847875FF380A37 /* Sources */,
+				76489AAC64E97C78E9488117E28D726D /* Frameworks */,
+				FBA91C241DBFD4135E536BA4C748CB7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FCF80A62045F502D44646065287CF0E5 /* PBXTargetDependency */,
-				79E16FB59EC4F998B33CB8B4DEBA7F03 /* PBXTargetDependency */,
-				9408E69770A56DD7B9AC1FC104B21F44 /* PBXTargetDependency */,
+				972AF6810A12AE4E808E35E5F4648834 /* PBXTargetDependency */,
+				D6E7BEE3CDC8133254CB71AF2D7E622C /* PBXTargetDependency */,
+				AC6FEDBC3A024CF7AD36103676477C01 /* PBXTargetDependency */,
+				F24A02961B335963B86A8253AD6BF2D4 /* PBXTargetDependency */,
+				E8403A570F4A7B08FB496F5068CA26FC /* PBXTargetDependency */,
 			);
 			name = "Pods-Media_Blaster";
 			productName = "Pods-Media_Blaster";
 			productReference = B7A02CFA802D4D1E6C44474A8E80046D /* Pods_Media_Blaster.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */ = {
+		55D38D35ABCC6A6C56D9E2649165ED52 /* PPTopMostController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
+			buildConfigurationList = B5B55E9F92493E3D95010334CA71EA42 /* Build configuration list for PBXNativeTarget "PPTopMostController" */;
 			buildPhases = (
-				C01257361E898E374FB0A6911FB063C7 /* Headers */,
-				3A823987FFCB5C3726EBB7A32E3B904E /* Sources */,
-				D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */,
-				2954910303CBA399A078839A2F6CEC93 /* Resources */,
+				EF940E94EABB114D88FF6069C96E3362 /* Headers */,
+				FF038BD23F1906D21E20DF51CC8879DD /* Sources */,
+				6DDDF4F237986352FD6C50D1F8FF91EB /* Frameworks */,
+				EB82C0C665B53132887EF16D06D99C45 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ViewAnimator;
-			productName = ViewAnimator;
-			productReference = A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */;
+			name = PPTopMostController;
+			productName = PPTopMostController;
+			productReference = C661EA541EBF00D09AF221A152EB7CEE /* PPTopMostController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9C10FCC9230D7F2B427D6CDB50584B25 /* VersaPlayer */ = {
@@ -495,6 +721,45 @@
 			productReference = 67A4D4DD084F5BCCA66B326C45EF9C75 /* VersaPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9EE7A34880B9382E4499E5611FECB220 /* RMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92045B63F249646ECDE5900A03E0E73E /* Build configuration list for PBXNativeTarget "RMessage" */;
+			buildPhases = (
+				1D5E9F56730D4E81967C8E780DEB9511 /* Headers */,
+				91CE604787DCF262F3DA984C52382F70 /* Sources */,
+				BEF5B38D2564E92AD868ED67870C2A69 /* Frameworks */,
+				A43AEDBACB28D58EA070B472275F3E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0735A768A29C93331AA99CB8942B53 /* PBXTargetDependency */,
+				E260BBB89458BEF53B801F92607E90BE /* PBXTargetDependency */,
+				3A06FB8045EEB5BED0365C5C104FF27A /* PBXTargetDependency */,
+			);
+			name = RMessage;
+			productName = RMessage;
+			productReference = 8F75D5F57FFDA3E2C19B25B0AF7FBA25 /* RMessage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7BE256EA2521B526245D404FF5E841F /* HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F018BA5151D5BBA03D190CAA4ACB3DC /* Build configuration list for PBXNativeTarget "HexColors" */;
+			buildPhases = (
+				8B8A1801502C1157C29E19615B41F4C7 /* Headers */,
+				BF40409AD018A081160965DC4EDB6905 /* Sources */,
+				9FC38A90569EC83B62BB398CD8AF7F7A /* Frameworks */,
+				22EACADB7A729E08FFC31D6FF796D0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexColors;
+			productName = HexColors;
+			productReference = 7350B247CE345D198416FCCE17761066 /* HexColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7155AE59A19533F60ECE3B4045B01F0 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
@@ -512,6 +777,23 @@
 			productName = IQKeyboardManagerSwift;
 			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		C011176D5EA51C19A2753796A30DD938 /* RMessage-RMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87618D222A1C6A0D9CAF9D390AE6B3D /* Build configuration list for PBXNativeTarget "RMessage-RMessage" */;
+			buildPhases = (
+				4307F311DE7C53AE7EFBC32E51009937 /* Sources */,
+				63715CD5CD2C0A9AEABD53F758EC1815 /* Frameworks */,
+				6DE4F964EC265A1D55AAAB91540251B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RMessage-RMessage";
+			productName = "RMessage-RMessage";
+			productReference = EC7149820F48A7C09F6321DE8B89A2CE /* RMessage.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -531,34 +813,62 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 452BC4FDF7BB0C3B54DA012F3F6BC366 /* Products */;
+			productRefGroup = B6C017B0D563F4CE841BF77A70F8041F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A7BE256EA2521B526245D404FF5E841F /* HexColors */,
 				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				3A5716032F8CEDA64DF699D1224EB147 /* Pods-Media_Blaster */,
+				55D38D35ABCC6A6C56D9E2649165ED52 /* PPTopMostController */,
+				9EE7A34880B9382E4499E5611FECB220 /* RMessage */,
+				C011176D5EA51C19A2753796A30DD938 /* RMessage-RMessage */,
 				9C10FCC9230D7F2B427D6CDB50584B25 /* VersaPlayer */,
-				91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23BCD0350386EE12078023F48E7A7223 /* Resources */ = {
+		22EACADB7A729E08FFC31D6FF796D0BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2954910303CBA399A078839A2F6CEC93 /* Resources */ = {
+		6DE4F964EC265A1D55AAAB91540251B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA05E0C6A507226CB45304123707A8D9 /* NotificationBackgroundErrorIcon.png in Resources */,
+				0D9C6CA7FC919592A07CE2807BF3B8C9 /* NotificationBackgroundErrorIcon@2x.png in Resources */,
+				87F780F2AF510FB0D5BADF32DAD86837 /* NotificationBackgroundSuccessIcon.png in Resources */,
+				B2C2AF424CD05CA6D028E4E17E0D015D /* NotificationBackgroundSuccessIcon@2x.png in Resources */,
+				87059649690E595A9FEA2CB6E3B4F859 /* NotificationBackgroundWarningIcon.png in Resources */,
+				FA916001F9F1DACFD6902A706CEC9280 /* NotificationBackgroundWarningIcon@2x.png in Resources */,
+				0D566CCF3E4EEAA84020EDBA314C9F1E /* NotificationButtonBackground.png in Resources */,
+				7FD1BCD46C9E3D4EF5CB2F5B8B92B817 /* NotificationButtonBackground@2x.png in Resources */,
+				2242DA209C798E66139B830001668745 /* RMessageDefaultDesign.json in Resources */,
+				1CD536363D233D49002D1E9CB5973922 /* RMessageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43AEDBACB28D58EA070B472275F3E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A187FE8167944C65794891E714E3D /* RMessage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CBCAFF80E144E4BB1D5D368208B6C4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB82C0C665B53132887EF16D06D99C45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -572,29 +882,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		3A823987FFCB5C3726EBB7A32E3B904E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		FBA91C241DBFD4135E536BA4C748CB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */,
-				FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */,
-				44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */,
-				2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */,
-				3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */,
-				297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */,
-				46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */,
-				BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B35C2D227D1BF0793BD88E5B9C987BF /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D425CFE605EE5209847875FF380A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D0910756C37AAFA5150EAAD0AB708E /* Pods-Media_Blaster-dummy.m in Sources */,
+				C5E77A6D00E96803232DC956CCE6B06D /* Pods-Media_Blaster-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4307F311DE7C53AE7EFBC32E51009937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,33 +957,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91CE604787DCF262F3DA984C52382F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E891D5888494EE43843C79FDDC02FCB /* RMessage-dummy.m in Sources */,
+				BF58040738E24F96E53E430E5E3B23DE /* RMessage.m in Sources */,
+				C9EB96F901CDB24E1F14BF5CF03E0B59 /* RMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40409AD018A081160965DC4EDB6905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053305D9A2B2D6FBE6BF23572EED51CA /* HexColors-dummy.m in Sources */,
+				6AC53CAC91CE6D44E2C3E6816833CC11 /* HexColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF038BD23F1906D21E20DF51CC8879DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501803705D226A4794309BAEC7AF1F98 /* PPTopMostController-dummy.m in Sources */,
+				2A00C84B4A2DEAA94D185D60A900971B /* UINavigationController+PPTopMostController.m in Sources */,
+				BEE513DD24278B4A42E5B16858D276E8 /* UITabBarController+PPTopMostController.m in Sources */,
+				42138ABAFCBCBC0E5997D3FF18734F08 /* UIViewController+PPTopMostController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79E16FB59EC4F998B33CB8B4DEBA7F03 /* PBXTargetDependency */ = {
+		0B0735A768A29C93331AA99CB8942B53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = VersaPlayer;
-			target = 9C10FCC9230D7F2B427D6CDB50584B25 /* VersaPlayer */;
-			targetProxy = 6C4C4BBFFB37742B530284889CFD9FBC /* PBXContainerItemProxy */;
+			name = HexColors;
+			target = A7BE256EA2521B526245D404FF5E841F /* HexColors */;
+			targetProxy = 35C8040BBBE1F5B95811F202C1F53B24 /* PBXContainerItemProxy */;
 		};
-		9408E69770A56DD7B9AC1FC104B21F44 /* PBXTargetDependency */ = {
+		3A06FB8045EEB5BED0365C5C104FF27A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ViewAnimator;
-			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
-			targetProxy = 4B4C1A0C051DC4B820793EDE0D5601C6 /* PBXContainerItemProxy */;
+			name = "RMessage-RMessage";
+			target = C011176D5EA51C19A2753796A30DD938 /* RMessage-RMessage */;
+			targetProxy = 530F7E9F2C1E0431C3EFBC3932B4DBE3 /* PBXContainerItemProxy */;
 		};
-		FCF80A62045F502D44646065287CF0E5 /* PBXTargetDependency */ = {
+		972AF6810A12AE4E808E35E5F4648834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = A7BE256EA2521B526245D404FF5E841F /* HexColors */;
+			targetProxy = 0FFB643EE8BF532A7E208DC4112C5A1F /* PBXContainerItemProxy */;
+		};
+		AC6FEDBC3A024CF7AD36103676477C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPTopMostController;
+			target = 55D38D35ABCC6A6C56D9E2649165ED52 /* PPTopMostController */;
+			targetProxy = 006BD43444CBD9C4E88616FCCEB05E75 /* PBXContainerItemProxy */;
+		};
+		D6E7BEE3CDC8133254CB71AF2D7E622C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
 			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = 211B31DFFA08E10CE49DB671BD861F25 /* PBXContainerItemProxy */;
+			targetProxy = 6345AABDA580D05B907B733E85420AEF /* PBXContainerItemProxy */;
+		};
+		E260BBB89458BEF53B801F92607E90BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPTopMostController;
+			target = 55D38D35ABCC6A6C56D9E2649165ED52 /* PPTopMostController */;
+			targetProxy = 33286BE1579B28635AF6CD78E5A43FA6 /* PBXContainerItemProxy */;
+		};
+		E8403A570F4A7B08FB496F5068CA26FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VersaPlayer;
+			target = 9C10FCC9230D7F2B427D6CDB50584B25 /* VersaPlayer */;
+			targetProxy = 0C13128BB98099CDD216B23C76A80FDD /* PBXContainerItemProxy */;
+		};
+		F24A02961B335963B86A8253AD6BF2D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMessage;
+			target = 9EE7A34880B9382E4499E5611FECB220 /* RMessage */;
+			targetProxy = AE5BAF49A66F79AD5A3D8E19C57DB39F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1AEC8811CD04A1575D6F1863CE81DA4A /* Debug */ = {
+		19B30E56434250EBEDD9245F54C4F149 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A34B5D4E5C97CE8B95BBC7C05BBC70 /* ViewAnimator.debug.xcconfig */;
+			baseConfigurationReference = E09A0595958E93C287B51A4938F88AD1 /* RMessage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RMessage";
+				IBSC_MODULE = RMessage;
+				INFOPLIST_FILE = "Target Support Files/RMessage/ResourceBundle-RMessage-RMessage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1B0F7296F2A4E29AC9CC4FAE53A41233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA00988C79E7051AE096C4A4EFCC0471 /* Pods-Media_Blaster.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		287F8DEC05733C473A7E09720D485FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C1F18E5594E4161FF3F8CFBFE9AF39 /* PPTopMostController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -685,8 +1108,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPTopMostController/PPTopMostController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -694,9 +1117,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
-				PRODUCT_MODULE_NAME = ViewAnimator;
-				PRODUCT_NAME = ViewAnimator;
+				MODULEMAP_FILE = "Target Support Files/PPTopMostController/PPTopMostController.modulemap";
+				PRODUCT_MODULE_NAME = PPTopMostController;
+				PRODUCT_NAME = PPTopMostController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -707,7 +1130,7 @@
 			};
 			name = Debug;
 		};
-		4463D178A21A89B241F34255F10ACDE2 /* Release */ = {
+		415B7170C04482A628997DB34E4CD3F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26B9F68438FACB111E6B18810B7AD66E /* Pods-Media_Blaster.release.xcconfig */;
 			buildSettings = {
@@ -745,9 +1168,9 @@
 			};
 			name = Release;
 		};
-		5768B4E5F7F8D2553B525AECC9A45FE5 /* Release */ = {
+		4ED5BCBB811BA4B5F6DEF1B310B372DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D544FF6BBB3B809F819890C46EBD4E19 /* ViewAnimator.release.xcconfig */;
+			baseConfigurationReference = E09A0595958E93C287B51A4938F88AD1 /* RMessage.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -758,8 +1181,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RMessage/RMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMessage/RMessage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -767,9 +1190,44 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
-				PRODUCT_MODULE_NAME = ViewAnimator;
-				PRODUCT_NAME = ViewAnimator;
+				MODULEMAP_FILE = "Target Support Files/RMessage/RMessage.modulemap";
+				PRODUCT_MODULE_NAME = RMessage;
+				PRODUCT_NAME = RMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B248246ACE1E7B6158A4A4BA56C5D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFDA52DD2552AEF17C13D6532E62883 /* RMessage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMessage/RMessage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMessage/RMessage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RMessage/RMessage.modulemap";
+				PRODUCT_MODULE_NAME = RMessage;
+				PRODUCT_NAME = RMessage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -781,46 +1239,9 @@
 			};
 			name = Release;
 		};
-		652953DF57BA4271666FECFA52BE9D3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA00988C79E7051AE096C4A4EFCC0471 /* Pods-Media_Blaster.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Media_Blaster/Pods-Media_Blaster.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7FD1B365074AA6BE41A944A6ADC06EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92CA05CF0D53C568CBF79562E49E9005 /* VersaPlayer.debug.xcconfig */;
+			baseConfigurationReference = 666F1209D46C9C458F1822409F806A7C /* VersaPlayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -915,7 +1336,7 @@
 		};
 		90AAF843F67A560DB523F885D8E0647D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 639B6850394E31FFFDDE06D0B6C7741E /* IQKeyboardManagerSwift.debug.xcconfig */;
+			baseConfigurationReference = 3363FAC6246FA645401BFB6667013D7F /* IQKeyboardManagerSwift.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1012,9 +1433,26 @@
 			};
 			name = Debug;
 		};
+		93131AA3C448AABB0FE238EE3A20A768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFDA52DD2552AEF17C13D6532E62883 /* RMessage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RMessage";
+				IBSC_MODULE = RMessage;
+				INFOPLIST_FILE = "Target Support Files/RMessage/ResourceBundle-RMessage-RMessage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = RMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		9EACABEA53EB35663641B129F2718052 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B219F23DEDA6032DB1CB745823DF5B1A /* IQKeyboardManagerSwift.release.xcconfig */;
+			baseConfigurationReference = DBE3B182462CB3CA1870DD35A04CE9ED /* IQKeyboardManagerSwift.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1050,7 +1488,7 @@
 		};
 		AE56A19BAC8DF5F6FE6D1FD7B0D874DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC67F0D01B6D93DABAED93676E0DE04D /* VersaPlayer.release.xcconfig */;
+			baseConfigurationReference = 4DD7979EE1105C45B3A71A2575DB7C6D /* VersaPlayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1084,18 +1522,116 @@
 			};
 			name = Release;
 		};
+		B0E73CB32EF09983B11A1D9A76189DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D4A1A343AAA5DF2ACAC0F8CDE3ABF4 /* HexColors.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/HexColors-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				PRODUCT_MODULE_NAME = HexColors;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA0157F6C477B358EC1E31669A888746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5242FC760828A85FC26A61CFF3876C /* PPTopMostController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPTopMostController/PPTopMostController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PPTopMostController/PPTopMostController.modulemap";
+				PRODUCT_MODULE_NAME = PPTopMostController;
+				PRODUCT_NAME = PPTopMostController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBCA3CE3EE79C1047DA4C0B0DC0A24F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282B13D249C3787DD1E1AA020C675058 /* HexColors.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/HexColors-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				PRODUCT_MODULE_NAME = HexColors;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F457E395AE084A096779A80A6A9A705 /* Build configuration list for PBXNativeTarget "Pods-Media_Blaster" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				652953DF57BA4271666FECFA52BE9D3B /* Debug */,
-				4463D178A21A89B241F34255F10ACDE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3512A841917075A9DA6E79D5D270C8BF /* Build configuration list for PBXNativeTarget "VersaPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1114,11 +1650,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
+		7F018BA5151D5BBA03D190CAA4ACB3DC /* Build configuration list for PBXNativeTarget "HexColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1AEC8811CD04A1575D6F1863CE81DA4A /* Debug */,
-				5768B4E5F7F8D2553B525AECC9A45FE5 /* Release */,
+				B0E73CB32EF09983B11A1D9A76189DAC /* Debug */,
+				CBCA3CE3EE79C1047DA4C0B0DC0A24F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8693523129BEC2A619BBA66F9CB9AE15 /* Build configuration list for PBXNativeTarget "Pods-Media_Blaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0F7296F2A4E29AC9CC4FAE53A41233 /* Debug */,
+				415B7170C04482A628997DB34E4CD3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92045B63F249646ECDE5900A03E0E73E /* Build configuration list for PBXNativeTarget "RMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED5BCBB811BA4B5F6DEF1B310B372DC /* Debug */,
+				5B248246ACE1E7B6158A4A4BA56C5D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1128,6 +1682,24 @@
 			buildConfigurations = (
 				90AAF843F67A560DB523F885D8E0647D /* Debug */,
 				9EACABEA53EB35663641B129F2718052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B55E9F92493E3D95010334CA71EA42 /* Build configuration list for PBXNativeTarget "PPTopMostController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287F8DEC05733C473A7E09720D485FBE /* Debug */,
+				BA0157F6C477B358EC1E31669A888746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87618D222A1C6A0D9CAF9D390AE6B3D /* Build configuration list for PBXNativeTarget "RMessage-RMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B30E56434250EBEDD9245F54C4F149 /* Debug */,
+				93131AA3C448AABB0FE238EE3A20A768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
